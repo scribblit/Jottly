@@ -1,0 +1,21 @@
+#main-headline {
+    font-size:48px;
+    color:#000000;
+    font-weight:bold;
+     background-color:#2d8449; /* Adds the green color to the background of an element */
+    font-family: 'Museo Slab', Helvetica, Arial, sans-serif;
+}
+ 
+
+.main-text {
+    font-size:22px;
+    color:#fff;
+    /*color:#2d8449; /* Adds the green color to the text element */
+
+}
+
+/*body {
+    background: #fff url(../images/collab3.jpg) no-repeat top center;
+}*/
+ 
+
