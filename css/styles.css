@@ -1,32 +1,53 @@
-.navbar img{
 
 
+.container, .navbar{
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; }
+
+header {
+    width: 100%;
+    height: 500px;
+    padding-top: 30px;
+    position: relative;   
 }
 
-.navbar ul li {
+/*logo*/
 
+.navbar a img{
+  float:left;
+  width:75;
+  height:80px;
+}
+  
+header nav{
+    float: right;
+    margin-top: 10px;
 }
 
-.navbar ul li li{}
+header nav ul li{
+    list-style: none;
+    display: inline;
+}
+
+.slider_wrapper{
+    width: 100%;
+    height: 570px;
+    position: relative;
+    overflow: hidden;
+}
 
 #main-headline {
+    margin-left: 100px;
+    padding-left: 80px;
     font-size:48px;
     color:#000000;
     font-weight:bold;
-     background-color:#2d8449; /* Adds the green color to the background of an element */
+    /*background-color:#2d8449; */
     font-family: 'Museo Slab', Helvetica, Arial, sans-serif;
 }
- 
-
-.main-text {
-    font-size:22px;
-    color:#fff;
-    /*color:#2d8449; /* Adds the green color to the text element */
-
-}
-
-/*body {
-    background: #fff url(../images/collab3.jpg) no-repeat top center;
-}*/
  
 

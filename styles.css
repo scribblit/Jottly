@@ -1,0 +1,11 @@
+
+
+body {
+    background: url(images/collab3.jpg) no-repeat top center;
+    /*background-size:contain;*/
+}
+
+/*logo*/
+.logo {
+  float: left;
+}
