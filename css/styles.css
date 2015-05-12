@@ -1,4 +1,10 @@
+.center {
+  text-align: center;
+}
 
+.hundred {
+  width: 100px;
+}
 
 .container, .navbar{
     position: relative;
@@ -145,17 +151,18 @@ input[type="button"].button-primary:focus {
 }
 
 .overlay {  /* Trying to achieve a transparent overlay here. */
-    position: absolute;
-    z-index: 1000; 
-    height: 575px;
-    width: auto;
-    background: white;
-    top: 0px;
+/*    position: absolute;
+    z-index: 1000; */
+    background-color: rgba(76,32,79,.7);
+    height: 100%;
+/*    width: auto;
+/*    background: white;*/
+/*    top: 0px;
     left: 0px;
     margin-left: 0px; 
-    margin-top: 0px; 
-    box-shadow: 10px 10px 10px rgba(0, 182, 198, 0.5); 
-
+    margin-top: 0px; */
+/*    box-shadow: 10px 10px 10px rgba(0, 182, 198, 0.5); 
+*/
 }
  
 
