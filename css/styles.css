@@ -6,12 +6,15 @@
   width: 100px;
 }
 
+/* picture styles */
 .hundred-2 {
   width: 100px;
   height: 100px;
   border-radius: 50%;
   overflow: hidden;
+  margin: 0 auto;
 }
+
 
 #blue {
   width: 50px;
@@ -21,6 +24,16 @@
   background-position: center;*/
   overflow: hidden;
 }
+
+
+#dobson-pic {
+  background-position: -120px 0px;
+  background-image: url(/images/man2.jpg);
+  background-size: cover;
+}
+
+
+/* base styles */
 
 .container, .navbar{
     position: relative;
@@ -298,6 +311,7 @@ p {
 
 
   }
+
  
 
   
