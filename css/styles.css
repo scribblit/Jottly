@@ -6,13 +6,23 @@
   width: 100px;
 }
 
+/* picture styles */
 .hundred-2 {
   width: 100px;
   height: 100px;
   border-radius: 50%;
   overflow: hidden;
+  margin: 0 auto;
 }
 
+#dobson-pic {
+  background-position: -120px 0px;
+  background-image: url(/images/man2.jpg);
+  background-size: cover;
+}
+
+
+/* base styles */
 .container, .navbar{
     position: relative;
     width: 100%;
@@ -205,6 +215,58 @@ margin-bottom: 2rem;
     color: #fff;
   }
 
+/* Larger than mobile */
+@media (min-width: 400px) {
+  body {
+    background-color: yellow;
+  }
+  .hundred-2 {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+  body {
+    background-color: white;
+  }
+  .hundred-2 {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  body {
+    background-color: red;
+  }
+  .footer {
+    display: none;
+  }
+  .hundred-2 {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+  body {
+    background-color: green;
+  }
+  .footer {
+    display: block;
+  }
+  .hundred-2 {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
  
 
   
