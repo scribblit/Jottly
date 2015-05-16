@@ -15,20 +15,37 @@
   margin: 0 auto;
 }
 
-
-#blue {
+/*#blue {
+  position: absolute;
+  top: 285px;
+  left: 136px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
+  opacity: .9;
   /*background-image: url(../images/color-patch.png);
-  background-position: center;*/
-  overflow: hidden;
+
+}*/
+
+#blue {
+  width: 65px;
+  height: 65px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
+  background-image: url(../images/color-patch.png);
 }
 
+#blue h4 {
+  padding-top: 12px;
+  font-family: 'Museo Slab', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  vertical-align: center;
+  color: #fff;
+}
 
 #dobson-pic {
-  background-position: -120px 0px;
-  background-image: url(/images/man2.jpg);
+  background-position: -200px 0px;
+  background-image: url(../images/man2.jpg);
   background-size: cover;
 }
 
@@ -46,6 +63,7 @@
 header {
     width: 100%;
     height: 90px;
+    margin-bottom: 55px;
     padding-top: 30px;
     position: relative;   
 }
@@ -53,10 +71,9 @@ header {
 /*logo*/
 
 .navbar a img{
-    float:left;
     width:85px;
     height:90px;
-    margin-left: -2em;
+    margin-left: -1.5em;
 }
   
 /*header*/  
@@ -83,6 +100,7 @@ header nav ul li{
 a {
   color: #fff;
   text-decoration: none;
+  font-weight: 100;
 }
 
 a:hover {
@@ -99,10 +117,12 @@ input[type="button"].button-primary {
   background-color: #F660FF;
   border-color: #F660FF; 
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 100;
   line-height: 38px;
   letter-spacing: .1rem;
   text-decoration: none;
+  text-transform: lowercase;
+  text-transform: capitalize;
   white-space: nowrap;
 }
 .button.button-primary:hover,
@@ -119,10 +139,12 @@ input[type="button"].button-primary:focus {
   background-color: #d257d9;
   border-color: #d257d9; 
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 100;
   line-height: 38px;
   letter-spacing: .1rem;
   text-decoration: none;
+  text-transform: lowercase;
+  text-transform: capitalize;
   white-space: nowrap;
 }
 
@@ -137,6 +159,9 @@ input[type="button"].button-primary:focus {
     background-size: cover;
 }
 
+.slides a {
+
+}
 
 #slide-dots nav ul{
     margin-left: 45%%;
@@ -176,12 +201,11 @@ input[type="button"].button-primary:focus {
     padding-left: 80px;*/
     font-size:39px;
     color:#ffffff;
-    font-weight:bold;
+    font-weight:bolder;
 }
 
 .main-text {
-    /*margin-left: 100px;
-    padding-left: 80px;*/
+    font-size: 1.7rem;
     color: #fff;
     font-family: 'Raleway', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -267,50 +291,41 @@ p {
 }
 
 @media (min-width: 400px) {
- 
 
     #main-headline, .main-text{
    
     width: 80%;
+    }/*.main-text, #main-headline*/
 
     header {
-    width: 100%;
-    height: 90px;
-    padding-top: 30px;
-    position: relative;   
-}
-
-}
+        width: 100%;
+        height: 90px;
+        padding-top: 30px;
+        position: relative;   
+    }/*header*/
 
 
 /*logo*/
 
-.navbar a img{
-    margin-left: -30px;
-    width:85px;
-    height:90px;
-    
-}
+    .navbar a img {
+        width:85px;
+        height:90px; 
+    }
 
-}
-
-
-
-}
+} /*@media 400px*/
 
 
 
 /* For devices larger than 550px */
 @media (min-width: 550px) {
-.navbar a img{
-    margin-left: 0px;
-    width:85px;
-    height:90px;
-   
-}
-
-
+  
+  .navbar a img{
+      width:85px;
+      height:90px;
   }
+
+
+}/*@media 550px*/
 
  
 
