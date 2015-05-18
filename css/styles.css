@@ -15,18 +15,6 @@
   margin: 0 auto;
 }
 
-/*#blue {
-  position: absolute;
-  top: 285px;
-  left: 136px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  opacity: .9;
-  /*background-image: url(../images/color-patch.png);
-
-}*/
-
 #blue {
   width: 65px;
   height: 65px;
@@ -38,6 +26,7 @@
 
 #blue h4 {
   padding-top: 12px;
+  font-weight: 100;
   font-family: 'Museo Slab', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   vertical-align: center;
   color: #fff;
@@ -47,6 +36,7 @@
   background-position: -200px 0px;
   background-image: url(../images/man2.jpg);
   background-size: cover;
+  margin-bottom: .5rem;
 }
 
 
@@ -152,7 +142,8 @@ input[type="button"].button-primary:focus {
 
 .intro {
     width: 100%;
-    height: 570px;
+    height:710px;
+    /*height: 70px;*/
     position: relative;
     overflow: hidden;
     background-image: url(../images/collab3.jpg);
@@ -191,20 +182,16 @@ input[type="button"].button-primary:focus {
 
 }
 
-.four.columns img{  /* How do I center elements inside the columns in Skeleton? */
-    margin-left: auto;
-    margin-right: auto;
-}
-
 #main-headline {
-    /*margin-left: 100px;
-    padding-left: 80px;*/
-    font-size:39px;
+    
+    padding-top: 60px;
+    font-size: 39px;
     color:#ffffff;
     font-weight:bolder;
 }
 
 .main-text {
+
     font-size: 1.7rem;
     color: #fff;
     font-family: 'Raleway', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -212,6 +199,8 @@ input[type="button"].button-primary:focus {
 
 #main-headline, .main-text {
     display: block;
+    width: 100%;
+    margin-right: 0px;
 }
 
 h3, #main-headline, #ready{
@@ -263,7 +252,7 @@ p {
   #ready{
     padding-top: 0px;
     font-weight: 100;
-    font-size: 22px;
+    font-size: 2rem;
 
   }
 
@@ -281,6 +270,25 @@ p {
     list-style: none;
     display: inline-block;
 }
+
+.u-full-width {
+  width: 85%;
+  box-sizing: border-box; }
+
+/*.u-pull-left {
+  width: 85%;
+  box-sizing: border-box; }*/
+
+
+#get-email input[type="email"], textarea, select{
+  
+  border-radius: 7px;
+  border-color: #fff;
+  padding: 0px 60px; 
+  /*height: 38px;*/
+  box-sizing: border-box; 
+}
+
 #jottly-footer {
   margin-top: 0px;
   padding-top: 0px;
@@ -290,20 +298,63 @@ p {
 
 }
 
+hr {
+  color: #cdcdcd;
+}
+
+#cta .button.button-primary{
+  font-family: 'Raleway', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.8rem;
+  height: 45px;
+  padding: 0 32px;
+  color: #fff;
+  box-sizing: border-box; 
+}
+
+
+
+/*display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box; }*/
+
+.container .slides .button.button-primary, 
+#cta .button.button-primary, 
+.navbar .button.button-primary {
+   border-radius: 6px;
+}
+
+input[type="email"],
+textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; }
+span {
+  padding-right: 30px;
+}
+
 @media (min-width: 400px) {
 
     #main-headline, .main-text{
-   
     width: 80%;
     }/*.main-text, #main-headline*/
 
     header {
-        width: 100%;
-        height: 90px;
-        padding-top: 30px;
-        position: relative;   
+    margin-bottom: 30px;
     }/*header*/
-
 
 /*logo*/
 
@@ -312,8 +363,24 @@ p {
         height:90px; 
     }
 
-} /*@media 400px*/
+    #main-headline {
+    /*margin-left: 100px;*/
+    padding-top: 20px;
+    font-size:39px;
+    color:#ffffff;
+    font-weight:bolder;
+}
 
+   /* #cta{
+      font-size: 2.5rem;
+    
+    }
+
+    #ready{
+    font-size: 1.5rem;
+    }*/
+
+} /*@media 400px*/
 
 
 /* For devices larger than 550px */
@@ -323,6 +390,18 @@ p {
       width:85px;
       height:90px;
   }
+
+  header {
+    margin-bottom: 55px;
+  }/*header*/
+
+  /*#cta{
+      font-size: 3rem;
+  }
+
+  #ready{
+    font-size: 2rem;
+  }*/
 
 
 }/*@media 550px*/
