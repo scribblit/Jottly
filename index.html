@@ -37,10 +37,10 @@
           <header> 
               <div class = "navbar">  
                         <!-- Logo -->  
-                        <a href="#" class="logo">
+                        <a href="#" class="logo" onclick="alertMe()">
                             <img src="images/coffee_white_2.png" alt="">
                         </a>
-
+          
                         <!-- Navigation -->
                         <nav>
                             <ul>
@@ -50,6 +50,11 @@
                         </nav>
                   
               </div>
+          <script>
+                  function alertMe(){
+                      alert("Thank you!");
+                  }
+          </script>
           </header> <!--End of Header -->
           <!-- Slider Section -->
           <div class = "container">
@@ -61,6 +66,7 @@
                   </p>
                   <a class="button button-primary" href="#">Sign up</a>
               </div>
+              
           </div><!-- End of Slider -->
       </div><!--End of Overlay -->
   </div><!--End of Intro -->
@@ -168,27 +174,22 @@
   </section>
 
   <!--cta -->
-   <div class = "overlay-2">
+  <div class = "overlay-2">
       <section class = "container">
-                <h3 id = "cta"><span>Sign up today and your first month is FREE!</span><a class="button button-primary" href="#">Sign up</a></h3>
-                <div class="row"> 
-
-
-                   <!--  <div class="eight columns">
-                        <h3 id = "cta"><span>Sign up today and your first month is FREE!</span></h3>
-                    </div>
-                    <div class="eight columns">
-                        <a class="button button-primary" href="#">Sign up</a>
-                    </div>
-                     -->
-
-                    <div class="seven columns">
+                <div><h3 id = "cta">Sign up today and your first month is FREE!</h3></div>
+                <div class ="signup">
+                      <a class="button button-primary" href="#">Sign up</a>
+                </div>
+          
+                <div class="row">
+                     <div class="seven columns"> 
                         <p id = "ready"><i>Not ready but still want access to our next release?</i></p>
                     </div>
                     <div class="five columns" id = "get-email">
                         <input class="u-full-width" type="email" placeholder="Enter your email address" id="exampleEmailInput">
                     </div>
-                </div>
+                </div> 
+
                 <!--footer-->
                 <div class = "footer">
                       <!-- Navigation -->
@@ -204,7 +205,7 @@
                 <p id = "jottly-footer"> &copy;JOTTLY. 2014. ALL RIGHTS RESERVED.</p>
       </section>
       
-  </div><!--End of overlay-2-->
+</div><!--End of overlay-2-->
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
