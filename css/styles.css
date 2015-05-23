@@ -1,0 +1,400 @@
+.center {
+  text-align: center;
+}
+
+.hundred {
+  width: 100px;
+}
+
+/* picture styles */
+.hundred-2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+#blue {
+  width: 65px;
+  height: 65px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
+  background-image: url(../images/color-patch.png);
+}
+
+#blue h4 {
+  padding-top: 12px;
+  font-weight: 100;
+  font-family: 'Museo Slab', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  vertical-align: center;
+  color: #fff;
+}
+
+#dobson-pic {
+  background-position: -200px 0px;
+  background-image: url(../images/man2.jpg);
+  background-size: cover;
+  margin-bottom: .5rem;
+}
+
+
+/* base styles */
+
+.container, .navbar{
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box; }
+
+header {
+    width: 100%;
+    height: 90px;
+    margin-bottom: 55px;
+    padding-top: 30px;
+    position: relative;   
+}
+
+/*logo*/
+
+.navbar a img{
+    width:85px;
+    height:90px;
+    margin-left: -1.5em;
+}
+  
+/*header*/  
+header nav{
+    float: right;
+    margin-top: 10px;
+    display: block;
+}
+
+header nav ul>li{
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  padding-right: 40px;
+}
+
+header nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+/*nav links*/
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+a:hover {
+  color: #CCC7B5; }
+
+/*buttons*/ 
+
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #F660FF;
+  border-color: #F660FF; 
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: lowercase;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #fff;
+  background-color: #d257d9;
+  border-color: #d257d9; 
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: lowercase;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+
+/* intro-contains slide */
+
+.intro {
+    width: 100%;
+    height:710px;
+    /*height: 70px;*/
+    position: relative;
+    overflow: hidden;
+    background-image: url(../images/collab3.jpg);
+    background-size: cover;
+}
+
+.slides a {
+
+}
+
+#slide-dots nav ul{
+    margin-left: 45%%;
+    margin-top: 275px;
+}
+
+#slide-dots nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 5px;
+}
+
+#slide-dots nav ul li a img{
+    width: 12px;
+    height: 12px; 
+}
+
+.container #features-and-services, #our-happy-customers{
+    padding-top: 30px;
+    text-align: center; 
+
+}
+
+.container #how-it-works {
+    padding-top: 7.5rem;
+    text-align: center;
+
+}
+
+#main-headline {
+    
+    padding-top: 60px;
+    font-size: 39px;
+    color:#ffffff;
+    font-weight:bolder;
+}
+
+.main-text {
+
+    font-size: 1.7rem;
+    color: #fff;
+    font-family: 'Raleway', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#main-headline, .main-text {
+    display: block;
+    width: 100%;
+    margin-right: 0px;
+}
+
+h3, #main-headline, #ready{
+   font-family: 'Museo Slab', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6, h5 {
+margin-bottom: 2rem;
+
+}
+
+p {
+  font-weight: 100;
+}
+
+.pink {
+  color: #F660FF; 
+  margin-bottom: 0px;
+}
+
+.overlay { 
+    background-color: rgba(0,188,204,.7);
+    height: 100%;
+}
+ 
+ .overlay-2 {   
+    width: 100%;
+    height: 100%;
+    background-color: #00bccc;
+    padding-right: 0px;
+  }
+
+  #cta, .footer, #ready{
+    color: #fff;
+  }
+
+  #cta {
+    padding-top: 40px;
+    text-align: center;
+  }
+
+  #ready {
+    font-weight: 100;
+    font-size: 2.2rem;
+    font-style: italic;
+  }
+
+/*footer*/  
+.footer nav{
+    float: left;
+    height: 25px;
+}
+
+.footer nav ul li {
+    font-size: 12px;
+    text-transform: uppercase;
+    list-style: none;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.text-area {
+  display: inline-block;
+}
+
+
+#get-email input[type="email"], textarea, select{
+  float: right;
+  border-radius: 7px;
+  border-color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  height: 38px;
+  box-sizing: border-box; 
+}
+
+
+#jottly-footer {
+  float: right;
+  padding-top: 5px;
+  display: inline-block;
+  font-size: 12px;
+  color: #fff;
+}
+
+hr {
+  color: #cdcdcd;
+}
+
+.container .slides .button.button-primary, 
+#cta .button.button-primary, 
+.navbar .button.button-primary {
+   border-radius: 6px;
+}
+
+input[type="email"],
+textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; }
+
+.signup {
+  text-align: center;
+  }
+
+.signup a {
+  padding-bottom: 2.5rem;
+}
+
+.signup .button.button-primary {
+  font-family: 'Raleway', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  height: 40px;
+  padding: 0 45px;
+  border-radius: 8px;
+  box-sizing: border-box; 
+
+  }
+
+@media (min-width: 400px) {
+
+    #main-headline, .main-text{
+    width: 80%;
+    }/*.main-text, #main-headline*/
+
+    header {
+    margin-bottom: 30px;
+    }/*header*/
+
+/*logo*/
+
+    .navbar a img {
+        width:85px;
+        height:90px; 
+    }
+
+    #main-headline {
+    padding-top: 20px;
+    font-size:39px;
+    color:#ffffff;
+    font-weight:bolder;
+}
+
+   #jottly-footer {
+  float: left;}
+
+} /*@media 400px*/
+
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+  
+  .navbar a img{
+      width:85px;
+      height:90px;
+  }
+
+  header {
+    margin-bottom: 55px;
+  }/*header*/
+
+  .signup {
+  padding-bottom: 40px;
+
+  }
+
+  #jottly-footer {
+  float: right;
+  padding-top: 5px;
+  display: inline-block;
+  font-size: 12px;
+  color: #fff;
+}
+
+
+}/*@media 550px*/
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+.signup {
+  margin: 0 auto;
+  padding-bottom: 6rem;
+
+  }
+
+}
+
+ 
+
+  
+
